@@ -1,4 +1,24 @@
-class User(var firstName:String, var secondname: String){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+class User(var firstName:String = "First", var secondname: String = "Second"){
     var login:String? = null
         set(value){
             if (value != null) field = value
@@ -15,6 +35,8 @@ class User(var firstName:String, var secondname: String){
             println("Это $field")
             return field
         }
-
-
+    internal fun printUser(){
+        println("$firstName and $secondname")
 }
+
+}*/
