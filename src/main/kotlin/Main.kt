@@ -1,3 +1,11 @@
 fun main (args: Array<String>) {
-    print("Hello world")
+   val alex = User("alex","marley")
+   alex.login
+   alex.login = "Alex"
+   alex.login
+
+   alex.password
+   alex.password = "Alex"
+   alex.password
+
 }
